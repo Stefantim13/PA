@@ -16,12 +16,14 @@ while(p != -1):
     print(p, end = ' ')
     p = s.find(t, p + len(t))
 '''
+'''
 t = 'abc'
 s = 'abccabcababcc'
 p = -1
 try:
     p = s.index(t)
 except: pass
+'''
 '''
 while(p != -1):
     print(p, end = ' ')
